@@ -15,8 +15,6 @@ from random import randint
 import matplotlib.pyplot as plt
 import time
 
-# Importing functions for SMILES, logP
-
 import smiles_logp_a as spa
 import init_pop_removal as ipr
 

@@ -15,8 +15,6 @@ from random import randint
 import matplotlib.pyplot as plt
 import time
 
-# Importing functions for SMILES, logP
-
 import smiles_logp_functions as spa
 import init_pop_removal as ipr
 
@@ -44,7 +42,7 @@ mating_pool_size = 20
 max_length_child = 81
 mutation_rate = 0.1
 symbols = mutation_symbols
-runs = 1
+runs = 10
 
 # Genetic algorithm
 
