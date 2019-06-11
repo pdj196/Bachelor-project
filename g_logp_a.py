@@ -15,8 +15,6 @@ from random import randint
 import matplotlib.pyplot as plt
 import time
 
-# Importing functions for SMILES, logP
-
 import crossover as co
 import mutate as mu
 import scoring_functions_logp_a as sf
