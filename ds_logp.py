@@ -19,8 +19,6 @@ import deepsmiles
 
 converter = deepsmiles.Converter(rings=True, branches=True)
 
-# Importing functions for SMILES, logP
-
 import ds_logp_functions as dpa
 import init_pop_removal as ipr
 
@@ -33,7 +31,6 @@ for line in f:
   new_line = line.replace('\n', '')
   smiles_list.append(new_line)
 
-# Mutation symbols for SMILES, extracted from https://raw.githubusercontent.com/tsudalab/ChemTS/master/data/250k\_rndm\_zinc\_drugs\_clean.smi using a separate notebook
 
 mutation_symbols = ['C', ')', '=', 'O', 'N', '6', 'F', '5', '9', '[C@@H]', '[C@H]', '#', '7', '%10', '%11', '%12', '%13', '%14', '%15', 'S', 'Cl', '-', '+', 'B', 'Br', '/', '3', '2', '4', '\\', '8', 'I']
 
