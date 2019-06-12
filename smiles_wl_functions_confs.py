@@ -57,7 +57,7 @@ def compute_absorbance(mol):
   data_list = []
   wavelength_list = []
   osc_list = []
-  for x in range(10):  
+  for x in range(1):  
     data = str(out).split('Rv(corr)\\n')[1].split('\\n')[x]
     data_list.append(data)
     wavelength, osc_strength = float(data.split()[2]), float(data.split()[3])
